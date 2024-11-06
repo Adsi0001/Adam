@@ -26,7 +26,7 @@
         Console.WriteLine("Hvad er dit yndlings computerspil?");
         string game = Console.ReadLine();
 
-        Console.WriteLine("Hvilken følese får du af at spille");
+        Console.WriteLine("Hvilken følese får du af at spille?");
         string feeling = Console.ReadLine();
 
         Console.WriteLine("Hvad er din yndlings øl?");
@@ -39,7 +39,7 @@
         int size = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Okay, " + name + ". Du har besvaret spørgsmålene succesfuldt i dag, d. " + dato + ". Du er " + age + " år gammel og kommer fra " + home + ".");
-        Console.WriteLine("Du kan godt lide " + food + " sammen med en " + beer + ", eller " + monster + " Monster.");
+        Console.WriteLine("Du kan godt lide " + food + " sammen med en " + beer + ", eller en " + monster + " Monster.");
         Console.WriteLine("Din fritid bruger du på at spille " + game + ", og det giver dig en følelse af " + feeling + ".");
         Console.WriteLine("Din skostørrelse er " + size + ".");
 
