@@ -61,16 +61,19 @@
 
         Console.WriteLine("Sidste spørgsmål. Har du en bil? (ja/nej)");
             string input = Console.ReadLine().ToLower();
-            bool harDuBil = input == "ja";
+            bool harDuBil = (input == "ja");
+            string harDuBilString;
+
                 if (harDuBil)
-                    Console.WriteLine("Du har en bil.");
+                    harDuBilString = "Du har en bil.";
                 else
-                    Console.WriteLine("Du har ikke en bil.");
+                    harDuBilString = "Du har ikke en bil.";
 
         Console.WriteLine("Okay, " + name + ". Du har besvaret spørgsmålene succesfuldt. I dag er det " + dag + ". Du er " + age + " år gammel og kommer fra " + home + ".");
         Console.WriteLine("Du har svaret " + pizza + " til at kunne lide pizza. Du drikker gerne en " + beer + ", eller en " + monster + " Monster.");
         Console.WriteLine("Din fritid bruger du på at spille " + game + ", og det giver dig en følelse af " + feeling + ".");
-        Console.WriteLine(harDuBil);
+        Console.WriteLine(harDuBilString);
+
 
         Console.ReadKey();
     }
